@@ -4,4 +4,8 @@ class ApplicationController < ActionController::Base
   def hello
     render html: "Aloha mai kākou!"
   end
+  
+  def goodbye
+    render html: "A hui hou"
+  end
 end
